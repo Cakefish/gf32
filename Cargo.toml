@@ -1,0 +1,11 @@
+[package]
+name = "gf32"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+bauble = ["dep:bauble"]
+
+[dependencies]
+bauble = {git = "https://github.com/Cakefish/bauble", optional = true}
+thiserror = "1.0.56"
