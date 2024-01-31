@@ -8,4 +8,4 @@ bauble = ["dep:bauble"]
 
 [dependencies]
 bauble = {git = "https://github.com/Cakefish/bauble.git", optional = true}
-thiserror = "1.0.56"
+thiserror = "^1.0"
