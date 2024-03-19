@@ -7,5 +7,5 @@ edition = "2021"
 bauble = ["dep:bauble"]
 
 [dependencies]
-bauble = {git = "https://github.com/Cakefish/bauble.git", rev="e70b30845ad68ccf7ac33b31f6257a70d1581a43", optional = true}
+bauble = {git = "https://github.com/Cakefish/bauble.git", rev="7b7e19b965a19eb3fd9a1e78c9368938f8477665", optional = true}
 thiserror = "^1.0"
